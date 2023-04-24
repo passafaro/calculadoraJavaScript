@@ -1,0 +1,42 @@
+table {
+    border: solid 1px #333;
+    width: 300px;
+    margin: auto;
+}
+
+tr {
+    border: solid 1px #333;
+}
+
+td {
+    border: solid 1px #333;
+}
+
+input {
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 90%;
+    border: none;
+    padding: 0px 5%;
+    outline: none;
+    font-size: 40px;
+    text-align: right;
+}
+
+input[type=submit] {
+    width: 75px;
+}
+
+input[type=submit]:hover {
+    background-color: #999;
+}
+
+.resultado {
+    background-color: blue;
+    color: white;
+}
+
